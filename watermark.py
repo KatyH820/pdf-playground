@@ -1,7 +1,8 @@
 import PyPDF2
 import sys
 
-# python3 watermark.py (name of the file that want to add watermark) (watermark file)
+# python3 watermark.py file_to_add_watermark watermark_file
+
 
 def add_watermark(file, mark):
     with open(file, 'rb') as f, open(mark, 'rb') as w:
